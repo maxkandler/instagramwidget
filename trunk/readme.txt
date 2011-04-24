@@ -9,16 +9,24 @@ Shows your latest Instagram photos in a widget.
 
 == Description ==
 
-This plugin shows your latest Instagram pictures in a widget which you can include in your sidebar. 
-This is the long description.  No limit, and you can use Markdown (as well as in the following sections).
+InstagramWidget is a small, light-weight plugin that brings your latest Instagram photos to your Wordpress blog.
 
+= Features =
+* Showing your '''latest Instagram''' images
+* Control the '''number of photos''' to be displayed
+* '''Customizable Cache''' for better performance of your blog
+* Using '''official API-Calls''' to prevent errors
+
+= For the next version =
+* Better cache control
+* Options for styling the images 
 
 == Installation ==
 
 = Requirements =
 * Widget-able Wordpress theme
 * Please make sure, `PHP_SAFE_MODE` is turned off by your webhoster
-* To enable Cache, the directory `{upload-folder}/instagram/` (there won't be stored more than 10 KB)
+* To enable Cache, the directory `{upload-folder}/instagram/` must be writable (there won't be stored more than 10 KB)
 
 = Installation =
 1. Upload `instagramWidget.php` to the `/wp-content/plugins/` directory
@@ -30,7 +38,10 @@ This is the long description.  No limit, and you can use Markdown (as well as in
 
 == Frequently Asked Questions ==
 
+= How do I get an API key? =
+For authorization purposes there must be a separate authentication to Instagram. You can get your own API key via this small site: http://justcurious.de/projects/instagramwidget/apiaccess.php 
 
+''soon to be extended''
 
 == Screenshots ==
 
