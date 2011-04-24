@@ -3,7 +3,7 @@ Contributors: max__k
 Tags: instagram, widget, photos
 Requires at least: 2.8
 Tested up to: 3.1
-Stable tag: 0.9
+Stable tag: trunk
 
 Shows your latest Instagram photos in a widget.
 
@@ -40,6 +40,6 @@ the directory of the stable readme.txt, so in this case, `/tags/4.3/screenshot-1
 
 == Changelog ==
 
-= 0.9 =
+= 0.1 =
 * First Version added
 

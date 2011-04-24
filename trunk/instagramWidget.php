@@ -4,7 +4,7 @@
   Plugin Name: InstagramWidget
   Description: Shows the last X pictures from your instagram-feed
   Author: Max Kleucker
-  Version: 0.9
+  Version: 0.1
   Author URI: http://www.justcurious.de
 */
 /*
