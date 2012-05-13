@@ -37,7 +37,7 @@ class InstagramWidget extends WP_Widget {
     $json = json_decode($this->getData($instance['access_token'], $instance['count_images'], $instance['cache_time']), true);
     
     // Showing sourrounding div
-		echo '<div>';
+		echo '<div class="widget InstagramWidget">';
 		
 		// The loop
 		foreach ($json["data"] as $value) 
